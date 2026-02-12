@@ -30,3 +30,6 @@ Raw sequence data were deposited in the NCBI Sequence Read Archive (SRA) with th
 ### References
 - Heller   P, Tripp   HJ, Turk-Kubo   K. et al.  ARBitrator: a software pipeline for on-demand retrieval of auto-curated nifH sequences from GenBank. Bioinformatics  2014;30:2883–90. 10.1093/bioinformatics/btu417
 - Moynihan   MA. nifHdada2 GitHub repository. Zenodo  2020. 10.5281/zenodo.3958370
+
+### Funding
+This project was supported by the Program Thomas–Lovejoy Research fellowship (2016–2017) of the Biological Dynamic Forest Fragment Project; The Bequest grant (2018) from the British Bryological Society; Canada Research Chair (950–232698); the CRNSG-RGPIN 05967–2016, and the Canadian Foundation for Innovation (projects 36781, 39135).
