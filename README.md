@@ -10,7 +10,7 @@ Understanding the spatial dynamics of plant-associated microbial communities is 
 ### Data
 Phyloseq objects with sample metadata, microbial community matrix of amplicon sequence variants (ASVs), ASVs taxonomic classification assigned using the adapted nifH ARB database v1.0.3 accessed in 2022 (Heller et al. 2014; Moynihan 2020), ASVs phylogenetic tree and full refseq alignment.  
 
-- [Complete diazotroph community matrix](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/01_Datasets/nifH_ps_complete_dataset_tree_abr23.rds). This is the complete dataset, including samples with uneven sequencing depths and without prior rarefaction, retaining all detected ASVs, including singletons.
+- [Complete diazotroph community dataset](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/01_Datasets/nifH_ps_complete_dataset_tree_abr23.rds). This is the complete dataset, including samples with uneven sequencing depths and without prior rarefaction, retaining all detected ASVs, including singletons.
 - [Rarefied dataset](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/01_Datasets/nifH_ps_rarefied_dataset_tree_jun24.rds) to an even sequencing depth of 514 reads for downstream analysis. The dataset comprised 146 samples, with a mean sequencing depth of 7003.9 reads (min = 571; max = 41 496) and a total of 4897 ASVs (3267 ASVs from 70 samples of C. surinamensis, and 2033 ASVs from 76 samples of R. flaccida).
 - [Host-specific diazotrophs](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/01_Datasets/Bryophyte_nifH_coremicrobiota_Jun24.rds). Filtered dataset corresponding to 75 ASVs. 
 
