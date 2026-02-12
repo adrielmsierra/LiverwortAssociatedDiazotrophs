@@ -19,7 +19,7 @@ Phyloseq objects with sample metadata, microbial community matrix of amplicon se
 
 ### Scripts
 Scripts in this repository are organized in the following directories:
-- Relative abundance of diazotrophic microbiota
+- [Relative abundance of diazotrophic microbiota](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/01_Sierra_Taxa_RelativeAbundance.R)
 - Host-specific diazotrophic microbiota
 - Analyses of diazotrophic community diversity
   * Alpha Diversity
