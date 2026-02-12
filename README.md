@@ -1,4 +1,5 @@
-# Liverwort Associated Diazotrophs
+# Nitrogen-fixing bacteria (Diazotrophs) associated with epiphyllous liverworts in fragmented tropical forests
+
 This repository host the metadata, microbial community matrix, and the scripts used for the analyses that support the findings of the study:
 
 Adriel M Sierra, Dennis Alejandro Escolástico-Ortiz, Charles E Zartman, Nicolas Derome, Connie Lovejoy, Juan Carlos Villarreal A, Assembly and co-occurrence networks of nitrogen-fixing bacteria associated with epiphyllous liverworts in fragmented tropical forests, ISME Communications, Volume 5, Issue 1, January 2025, ycaf173, https://doi.org/10.1093/ismeco/ycaf173
