@@ -7,9 +7,6 @@ Adriel M Sierra, Dennis Alejandro Escolástico-Ortiz, Charles E Zartman, Nicolas
 ### Abstract
 Understanding the spatial dynamics of plant-associated microbial communities is increasingly urgent in the context of habitat loss and the biodiversity crisis. However, the influence of reduced habitat size and connectivity on the assembly mechanisms underlying microbial associations is fundamental to advancing microbial ecology and conservation. In the Brazilian Amazon, we investigated nitrogen-fixing (diazotrophic) bacterial communities associated with two epiphyllous liverworts, Cololejeunea surinamensis and Radula flaccida, across 11 forest sites within the Biological Dynamics of Forest Fragments Project landscape. Using amplicon sequencing targeting the nitrogenase gene (nifH), we characterized diazotroph community diversity, inferred assembly mechanisms through null models, and analyzed co-occurrence network structure. Host-specific associations were evident: C. surinamensis predominantly hosted Hassallia, while R. flaccida was primarily associated with Fischerella. Despite habitat fragmentation, diazotrophic richness and composition remained similar across habitats of different sizes, consistent with strong homogenizing dispersal. Network analyses revealed that smaller fragments harbored more modular communities with fewer module hubs, pronounced shifts in key species relative abundance, and reduced network robustness. Our findings underscore the influence of habitat size on the stability of liverwort-associated diazotrophs, with smaller fragments exhibiting lower key species specificity and disruption of microbe-microbe interactions. Our results emphasize the importance of conserving large, connected forest habitats to maintain the functional integrity of phyllosphere N-fixing microbiota.
 
-### Data availability
-Raw sequence data were deposited in the NCBI Sequence Read Archive (SRA) with their respective accession numbers under the BioProject: PRJNA1169898.
-
 ### Data
 Phyloseq objects with sample metadata, microbial community matrix of amplicon sequence variants (ASVs), ASVs taxonomic classification assigned using the adapted nifH ARB database v1.0.3 accessed in 2022 (Heller et al. 2014; Moynihan 2020), ASVs phylogenetic tree and full refseq alignment.  
 
@@ -20,12 +17,15 @@ Phyloseq objects with sample metadata, microbial community matrix of amplicon se
 ### Scripts
 Scripts in this repository are organized in the following directories:
 - [Relative abundance of diazotrophic microbiota](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/01_Sierra_Taxa_RelativeAbundance.R)
-- Host-specific diazotrophic microbiota
+- [Host-specific diazotrophic microbiota](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/02_Sierra_Hostspecific_diazotrophs.R)
 - Analyses of diazotrophic community diversity
-  * Alpha Diversity
-  * Beta diversity and ordination
-- Metacommunity assembly processes
-- Network analyses and detection of module hubs
+  * [Alpha Diversity](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/03_Sierra_Alphadiversity.R)
+  * [Beta diversity and ordination](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/04_Sierra_Betadiversity.R)
+- [Metacommunity assembly processes](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/05_Sierra_NullModeling.R)
+- [Network analyses and detection of module hubs](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/R_Scripts/06_Sierra_NetworkAnalyses.R)
+
+### Data availability
+Raw sequence data were deposited in the NCBI Sequence Read Archive (SRA) with their respective accession numbers under the BioProject: PRJNA1169898.
 
 ### References
 - Heller   P, Tripp   HJ, Turk-Kubo   K. et al.  ARBitrator: a software pipeline for on-demand retrieval of auto-curated nifH sequences from GenBank. Bioinformatics  2014;30:2883–90. 10.1093/bioinformatics/btu417
