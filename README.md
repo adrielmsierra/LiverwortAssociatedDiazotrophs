@@ -16,6 +16,16 @@ Phyloseq objects with sample metadata, microbial community matrix of amplicon se
 - [Rarefied dataset](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/01_Datasets/nifH_ps_rarefied_dataset_tree_jun24.rds) to an even sequencing depth of 514 reads for downstream analysis. The dataset comprised 146 samples, with a mean sequencing depth of 7003.9 reads (min = 571; max = 41 496) and a total of 4897 ASVs (3267 ASVs from 70 samples of C. surinamensis, and 2033 ASVs from 76 samples of R. flaccida).
 - [Host-specific diazotrophs](https://github.com/adrielmsierra/LiverwortAssociatedDiazotrophs/blob/main/01_Datasets/Bryophyte_nifH_coremicrobiota_Jun24.rds). Filtered dataset corresponding to 75 ASVs. 
 
-References
+### Scripts
+Scripts in this repository are organized in the following directories:
+- Relative abundance of diazotrophic microbiota
+- Host-specific diazotrophic microbiota
+- Analyses of diazotrophic community diversity
+* Alpha Diversity
+* Beta diversity and ordinations
+- Metacommunity assembly processes
+- Network analyses and detection of module hubs
+
+### References
 - Heller   P, Tripp   HJ, Turk-Kubo   K. et al.  ARBitrator: a software pipeline for on-demand retrieval of auto-curated nifH sequences from GenBank. Bioinformatics  2014;30:2883–90. 10.1093/bioinformatics/btu417
 - Moynihan   MA. nifHdada2 GitHub repository. Zenodo  2020. 10.5281/zenodo.3958370
