@@ -21,8 +21,8 @@ Scripts in this repository are organized in the following directories:
 - Relative abundance of diazotrophic microbiota
 - Host-specific diazotrophic microbiota
 - Analyses of diazotrophic community diversity
-* Alpha Diversity
-* Beta diversity and ordinations
+  * Alpha Diversity
+  * Beta diversity and ordinations
 - Metacommunity assembly processes
 - Network analyses and detection of module hubs
 
